@@ -8,6 +8,8 @@ Extend the restrictive capabilities of our routes to our API, implementing a ful
 
 > ## UML
 
+![Lab08 UML](./lab08_UML.jpg)
+
 > ## Getting Started
 
 > ### Standard dependencies
