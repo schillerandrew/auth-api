@@ -2,8 +2,8 @@
 
 // 3rd Party Resources
 const express = require('express');
-const cors = require('cors');
-const morgan = require('morgan');
+// const cors = require('cors');
+// const morgan = require('morgan');
 
 // Esoteric Resources
 const handle500 = require('./error-handlers/500.js');
@@ -17,8 +17,8 @@ const v1Routes = require('./routes/v1.js');
 const app = express();
 
 // App Level MW
-app.use(cors());
-app.use(morgan('dev'));
+// app.use(cors());
+// app.use(morgan('dev'));
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
@@ -31,7 +31,7 @@ app.use(authRoutes);
 app.use('/api/v1', v1Routes);
 
 // Catchalls
-app.use(handle404);
+app.use('*', handle404);
 app.use(handle500);
 
 module.exports = {

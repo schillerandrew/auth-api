@@ -9,7 +9,7 @@
     "db:create": "sequelize db:create",
     "watch": "nodemon index.js",
     "test-watch": "jest --watchAll",
-    "test": "jest"
+    "test": "jest --verbose --coverage"
   },
   "jest": {
     "testEnvironment": "node"

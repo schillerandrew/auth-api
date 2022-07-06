@@ -1,16 +1,16 @@
 # auth-api
 
-> Author: Andrew Schiller
+Author: Andrew Schiller
 
-> ## Problem Domain
+> ## **Problem Domain**
 
 Extend the restrictive capabilities of our routes to our API, implementing a fully functional, authenticated and authorized API Server using the latest coding techniques.
 
-> ## UML
+> ## **UML**
 
 ![Lab08 UML](./lab08_UML.jpg)
 
-> ## Getting Started
+> ## **Getting Started**
 
 > ### Standard dependencies
 
@@ -28,12 +28,12 @@ Extend the restrictive capabilities of our routes to our API, implementing a ful
 
 - To enable a test environment, go into the `package.json` file and insert `NODE_ENV=test ` at the start of the `test` value (in front of `jest --verbose --coverage`), which is in `scripts`.
 
-> ## Links
+> ## **Links**
 
 - [GitHub pull request](https://github.com/schillerandrew/auth-api/pull/1)
 - [GitHub actions](https://github.com/schillerandrew/auth-api/actions)
 
-> ## Architecture
+> ## **Architecture**
 
 - **runtime:** Node
 - **server:** Express

@@ -25,7 +25,8 @@ class DataCollection {
 
   update(id, data) {
     return this.model.findOne({ where: { id } })
-      .then(record => record.update(data));
+      .then(record => record.update(data))
+      .catch(e => console.error(e.message));
   }
 
   delete(id) {

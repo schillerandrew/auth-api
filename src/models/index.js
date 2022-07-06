@@ -13,6 +13,6 @@ const clothes = clothesModel(sequelize, DataTypes);
 
 module.exports = {
   db: sequelize,
-  food: new Collection(food),
-  clothes: new Collection(clothes),
+  food: food,
+  clothes: clothes,
 };
